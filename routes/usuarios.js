@@ -1,4 +1,5 @@
 const { Router } = require('express');
+
 const { usuariosGet,
         usuariosPost,
         usuariosPut,
@@ -7,6 +8,7 @@ const { usuariosGet,
 
 const router = Router();
 
+// router.get('ruta', controlador);
 router.get('/', usuariosGet);
 
 router.post('/', usuariosPost);
